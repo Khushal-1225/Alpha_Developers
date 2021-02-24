@@ -109,6 +109,8 @@ body,html{
 .imge_2{
     min-height: 100%;
     background-image: url("blackhole_c_e.jpg");
+    background-repeat: no-repeat;
+
 }
 .imge_3{
     min-height: 100%;
