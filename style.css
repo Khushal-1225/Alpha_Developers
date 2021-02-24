@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
+*
+{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: 'Balsamiq Sans', cursive;
+}
+#sjlogo{
+    width: auto;
+    height: 100px;
+}
+
+.navbar_sec{
+    position: fixed;
+    width:100%;
+    min-height: 25vh;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    transition: 0.5s;
+}
+
+.navbar_head{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding:2px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+
+header .logo{
+    position: relative;
+    max-width: 80px;
+}
+
+header > a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+} 
+
+header ul{
+    position: relative;
+    display: flex;
+}
+
+header ul li{
+    list-style: none;
+}
+
+header ul li a{
+    display: inline-block;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 40px;
+    padding:5px;
+    text-decoration: none;
+}
+header ul li a:hover{
+    color:black;
+    background-color: white;
+    border-radius: 5px;
+}
+/*
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+*/
+
+/*body{
+    background-color: rgb(255, 255, 255);
+    /*background-image: url(/Resources/planets/10blackhole.png);
+    background-repeat: no-repeat;
+    align-items: center;
+}
+*/
+
+
+
+.animation{
+    background-color: black;
+}
+table{
+    margin-top: 200px;
+    margin-bottom: 20px;
+    display: inline-table;
+    table-layout: fixed;
+}
+table:hover{
+    position: relative;
+    animation: attraction_blackhole;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes attraction_blackhole{
+    0%{
+        left: 0px;
+    }
+    /*25%{
+        left:25px;
+    }
+    50%{
+        left: 50px;
+    }*/
+    100%{
+        left: 150px;
+    }
+}
+
+#sun_css{
+    /*margin-top:40px;*/
+    height: 250px;
+    width:auto;
+}
+#mercury_css{
+    height: 40px;
+    width:auto;
+}
+#venus_css{
+    height: 60px;
+    width:auto;
+}
+#earth_css{
+    height: 60px;
+    width:auto;
+}
+#mars_css{
+    height: 50px;
+    width:auto;
+}
+#jupiter_css{
+    height:80px;
+    width:auto;
+}
+#saturn_css{
+    height: 80px;
+    width:auto;
+}
+#uranus_css{
+    height: 60px;
+    width:auto;
+}
+#neptune_css{
+    height: 60px;
+    width:auto;
+}
+#blackhole_css{
+    margin-left: 70px;
+    height:300px;
+    width:auto;
+}
+
+
+#topic > p{
+    background-color: black;
+    color:white;
+    font-size: 150px;
+    text-align: center;
+   /* padding-top: 15px;
+    padding-bottom: 10px;*/
+}
+#para > p{
+    color: black;
+    text-align: justify;
+}
+#para > h1{
+    display: inline;
+    font-size: 30px;
+}
+.image1{
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.image2{
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.image_1,.image_2{
+    position: relative;
+    opacity: 0.9;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.sec1{
+    text-align: center;
+    padding: 30px 60px;
+}
+.sec1_l{
+    background-color: #f4f4f4;
+    color: rgb(0, 0, 0);
+}
+.sec1_d{
+    background-color: #282e34;
+    color: #ddd;
+}

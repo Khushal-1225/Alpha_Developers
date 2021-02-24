@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
+*
+{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: 'Balsamiq Sans', cursive;
+}
+#sjlogo{
+    width: auto;
+    height: 100px;
+}
+
+.navbar_sec{
+    position: fixed;
+    width:100%;
+    min-height: 18vh;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.navbar_head{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding:2px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+
+header .logo{
+    position: relative;
+    max-width: 80px;
+}
+
+header > a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+} 
+
+header ul{
+    position: relative;
+    display: flex;
+}
+
+header ul li{
+    list-style: none;
+}
+
+header ul li a{
+    display: inline-block;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 40px;
+    padding:5px;
+    text-decoration: none;
+}
+header ul li a:hover{
+    color:black;
+    background-color: white;
+    border-radius: 5px;
+}
+
+body,html{
+    margin: 0;
+    height: 100%;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.img_1{
+    min-height: 100%;
+    background-image: url("ALMA telescope spies a supermassive black hole's spinning disk.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img_2{
+    min-height: 100%;
+    background-image: url("Black hole in space. Elements of this image furnished by NASA.jpg");
+}
+.img_3{
+    min-height: 100%;
+    background-image: url("First 'Real' Image Of The Black Hole.webp");
+}
+.img_4{
+    min-height: 100%;
+    background-image: url("Nothing Escapes From A Black Hole.jpg");
+}
+.img_5{
+    min-height: 100%;
+    background-image: url("The First Close-Up View of a Black Hole.jpg");
+}
+.img_6{
+    min-height: 100%;
+    background-image: url("We’re About to See a Real Black Hole for the First Time.jpg");
+}
+.imge_2{
+    min-height: 100%;
+    background-image: url("blackhole_c_e.jpg");
+}
+.imge_3{
+    min-height: 100%;
+    background-image: url("supernova.jpg");
+    background-repeat: no-repeat;
+
+}
+.imge_4{
+    min-height: 100%;
+    background-image: url("star-evolution.jpg");
+    background-repeat: no-repeat;
+}
+.img_1,.img_2,.img_3,.img_4,.img_5,.img_6,.imge_3,.imge_4{
+    position: relative;
+    opacity: 0.9;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.s1{
+    text-align: center;
+    padding: 30px 60px;
+}
+.s1_l{
+    background-color: #f4f4f4;
+    color: #666;
+}
+.s1_d{
+    background-color: #282e34;
+    color: #ddd;
+}
